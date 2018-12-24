@@ -14,9 +14,11 @@ displaySum( value1, value2);
 displayMul( value1, value2);
 // 
 function displaySum( value1, value2){
+    console.log("Summing\n");
     console.log("The sum is of two number is ", value1 + value2);
 }
 
 function displayMul(value1,value2) {
+    console.log("Multiplication\n");
     console.log("Thw multiplication is ", value1*value2);
 }
