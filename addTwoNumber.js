@@ -1,9 +1,6 @@
 
 //  add two number
 
-
-//  add two number
-
 var value1 = 90;
 var value2 = 9;
 
@@ -15,6 +12,9 @@ displaySum( value1, value2);
 
 // Call displayMul funtion
 displayMul( value1, value2);
+
+// Call qube funtion
+qube(value1);
 // 
 function displaySum( value1, value2){
     console.log("The sum is of two number is ", value1 + value2);
@@ -29,10 +29,6 @@ function square(value1){
     console.log("The squre is",value1*value1);
 }
 
-display();
-
-function display(){
-    console.log('Hello US');
+function qube(x){
+    console.log(x*x*x);
 }
-
-
