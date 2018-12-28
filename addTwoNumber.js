@@ -13,8 +13,11 @@ displaySum( value1, value2);
 // Call displayMul funtion
 displayMul( value1, value2);
 
-// Call qube funtion
+// Call qube function
 qube(value1);
+
+// Call display student info
+displayDetails();
 // 
 function displaySum( value1, value2){
     console.log("The sum is of two number is ", value1 + value2);
