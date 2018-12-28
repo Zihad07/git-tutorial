@@ -32,3 +32,13 @@ function square(value1){
 function qube(x){
     console.log(x*x*x);
 }
+
+function displayDetails(){
+    stdinfo = {
+        name : 'Sani',
+        age : 22,
+        hoby : ['soceer', 'swimming']
+    };
+
+    console.log(stdinfo);
+}
